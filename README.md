@@ -1,8 +1,8 @@
-## Quiz Time - Steve Barry
+## Portfolio - Steve Barry
 
 ## <span style="color:green"> The Task</span>
 
-The task was to create a solution that asks the users questions, records their score and lists a set of hgh scores, with a timer that ends the quiz when it runs out.
+The task was to update our portfolio from Week 2 to include our group project, more recent examples, and a refreshed look, together with updated resume/LinkedIn/Github.
 
 ### ⭐ ⭐ S.T.A.R. ⭐ ⭐
 
@@ -49,36 +49,20 @@ Writing of a solution to resolve the situation, including:
 
 The end code is stored on Github, and publicly available and viewable. This result meets all requirements of the User Story and acceptance criteria:
 
-* ~~GIVEN I am taking a code quiz~~
-* ~~WHEN I click the start button~~
-* ~~THEN a timer starts and I am presented with a question~~
-* ~~WHEN I answer a question~~
-* ~~THEN I am presented with another question~~
-* ~~WHEN I answer a question incorrectly~~
-* ~~THEN time is subtracted from the clock~~
-* ~~WHEN all questions are answered or the timer reaches 0~~
-* ~~THEN the game is over~~
-* ~~WHEN the game is over~~
-* ~~THEN I can save my initials and my score~~
+
 
 ## <span style="color:green"> The Outcome</span>
 
 As the acceptance criteria has been met and exceeded, the task is now complete. 
 
-*As a caveat, I checked with the teachers to confirm if the topic of questions had to be Javascript related, and they confirmed it did not.*
-> There is a new Google feature named FLoc that is generating the below error. This is not a result of the performance or design of the site.
-> 
-> ![Screenshot of Google FLoC error](./assets/images/floc.PNG "Screenshot of Google FLoC error")
-> 
-> [Google FLoC](https://techcrunch.com/2021/03/30/google-starts-trialling-its-floc-cookie-alternative-in-chrome/)
 
-You can view the finished product [HERE](https://nbs5000.github.io/quizTime/)
+You can view the finished product [HERE](https://nbs5000.github.io/portfolio_2/)
 
 Alternatively, here is a screenshot:
 
-> ![Screenshot of Quiz Time page](./assets/images/screen.png "Screenshot of Quiz Time page")
+> ![Screenshot of Portfolio 2 page](./assets/images/screen.png "Screenshot of Portfolio 2 page")
 
 ---
-<p style="text-align:center;">Written by <span style="font-style:italic">Steve Barry</span> - Due date 23/12/2021</p>
+<p style="text-align:center;">Written by <span style="font-style:italic">Steve Barry</span> - Due date 31/1/2022</p>
 
-<p style="text-align:center;">© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.</p>
+<p style="text-align:center;">© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.</p>
