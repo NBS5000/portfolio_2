@@ -5,20 +5,96 @@ Media CSS file
 */
 
 @media screen and (max-width:1060px) and (min-width:650px) {
-    .weatherDay{
-        width: 32%;
+    .sb_name{
+        font-size: 135%;
+    }
+    h1{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:750px) and (min-width:650px) {
+    .sb_name{
+        font-size: 120%;
+    }
+    h1{
+        width: 100%;
     }
 }
 @media screen and (max-width:650px) and (min-width:450px) {
-    .weatherDay{
-        width: 48%;
+    .sb_name{
+        font-size: 110%;
+    }
+    h1{
+        width: 100%;
     }
 }
 @media screen and (max-width:450px) {
-    #banner{
+    #mainContent{
+        margin-top: 0;
+        width: 90%;
+    }
+    header{
         height: 50px;
+        width: 100%;
+    }
+    #banner{
+        height: 70px;
     }
     .sb_name{
-        font-size: 150%;
+        font-size: 100%;
+        display: block;
+        text-align: center;
+
+    }
+    #stephen{
+        padding-left: 0;
+    }
+    #barry{
+
+    }
+    h1{
+        width: fit-content;
+        margin: 0 auto;
+    }
+    nav{
+        width: 100%;
+
+    }
+    #menu{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    h2{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #aboutTop, #aboutMiddle{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    h3{
+        margin-top: 15px;
+        text-align: center;
+    }
+    /* #aboutH2{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+    } */
+    .aboutP{
+        text-align: justify;
+    }
+    #me{
+        margin-left: 36%;
+        margin-top: -10%;
+    }
+    #mainExample{
+        width: 100%;
+        /* height: 400px; */
     }
 }

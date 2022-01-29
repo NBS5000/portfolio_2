@@ -17,24 +17,34 @@ header{
     background-color: grey;
     color: white;
     height: 50px;
-    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    position: relative;
+}
+nav{
+    float: right;
+    width: 85%;
 }
 #menu{
     margin: 0 auto;
     width: 100%;
     height: 100%;
     text-align: right;
-    font-size: 80%;
-    margin-top: 7px;
 }
 .menuLink{
-    display: inline;
+    display: inline-block;
     padding-right: 5%;
+    text-align: center;
+    line-height: 200%;
+
 }
 .sb_name{
     float: left;
     font-size: 150%;
     text-shadow: dimgray 1px 1px 3px;
+    flex-shrink: 2;
 }
 #stephen{
     padding-left: 50px;
@@ -52,9 +62,9 @@ header{
 }
 #mainContent{
     display: flex;
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
-    top: -200px;
+    margin-top: -9%;
     flex-wrap: wrap;
 }
 #me{
@@ -64,23 +74,104 @@ header{
     margin-top: -10%;
     left: 20px;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px grey;
+    box-shadow: var(--bx_shadow);
+    min-width: 70px;
+    
+}
+a{
+    color: white;
 }
 
 #aboutH2{
-    margin-left: 20%;
-    margin-top: -10%;
-    color: var(--h_color);
-    font-weight: bolder;
-    width: 100%;
-    height: fit-content;
+    /* margin-left: 20%; */
+    margin-top: -15%;
+    
+
 }
-#aboutTop{
-    margin-left: 20%;
-    margin-top: -5%;
+h2{
+    color: var(--h_color);
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#aboutTop, #aboutMiddle{
+
+}
+#aboutMiddle{
+
 }
 .aboutP{
-    font-size: 80%;
-    margin-bottom: 3%;
+    /* font-size: 80%; */
+    /* margin-bottom: 2%; */
     width: 100%;
+    /* padding: 0 0 15px 0; */
+    padding-bottom: 15px;
+    text-align: justify;
+}
+#theCode, #contact{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#mainExample{
+    margin-bottom: 20px;
+}
+h3{
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 125%;
+}
+#img_dateNight{
+    width: 100%;
+    height: fit-content;
+    min-width: 190px;
+    margin: 0 auto;
+}
+
+.codeImg{
+    border-radius: 20px;
+    box-shadow: var(--bx_shadow);
+    margin: 0 auto;
+}
+.codeP{
+    margin-bottom: 10px;
+}
+
+.subExample{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.subImg{
+    width:100%;
+    height: fit-content;
+}
+
+.contactIcon{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contactImg{
+    height: 50px;
+    width: 50%;
+}
+
+
+
+#mainEx{
+    text-align: center;
+    width: 80%;
+    height: 500px;
+    display: block;
+    
+
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
 }
