@@ -15,7 +15,10 @@ Media CSS file
     }
 }
 @media screen and (max-width:450px) {
-    .weatherDay{
-        width: 95%;
+    #banner{
+        height: 50px;
+    }
+    .sb_name{
+        font-size: 150%;
     }
 }
