@@ -13,7 +13,7 @@ header{
     padding-top: 10px;
     /* display: block; */
     /* position: relative; */
-    /* width: 100%; */
+    width: 100%;
     background-color: grey;
     color: white;
     height: 50px;
@@ -30,35 +30,30 @@ footer{
 }
 h1{
     position: relative;
-}
-nav{
-    /* float: right;
-    width: 85%; */
-    
+    width: fit-content;
 }
 #menu{
-    /* margin-left: -15%; */
-    /* width: 100%;
-    height: 100%; */
-    /* text-align: right; */
     display: flex;
+    padding: 0;
+    margin-left: -100%;
+    right: 0;
 }
 .menuLink{
-    display: inline-block;
-    /* padding-right: 5%; */
-    margin-right: 15%;
+    padding-right: 20%;
     text-align: center;
     line-height: 200%;
-
+    width: max-content;
 }
 .sb_name{
     float: left;
     font-size: 150%;
     text-shadow: var(--tx_shadow);
     flex-shrink: 2;
+    display: block;
+    width: fit-content;
 }
 #stephen{
-    padding-left: 50px;
+    margin-left: 50px;
     font-weight: bold;
 }
 #barry{

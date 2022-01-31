@@ -10,25 +10,16 @@ Media CSS file
     .sb_name{
         font-size: 135%;
     }
-    h1{
-        width: 100%;
-    }
 
 }
 @media screen and (max-width:750px) and (min-width:650px) {
     .sb_name{
         font-size: 120%;
     }
-    h1{
-        width: 100%;
-    }
 }
 @media screen and (max-width:650px) and (min-width:450px) {
     .sb_name{
         font-size: 110%;
-    }
-    h1{
-        width: 100%;
     }
 }
 @media screen and (max-width:450px) {
@@ -50,7 +41,7 @@ Media CSS file
 
     }
     #stephen{
-        padding-left: 0;
+        margin-left: 0;
     }
     h1{
         width: fit-content;
