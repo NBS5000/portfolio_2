@@ -18,12 +18,34 @@
                 <ul id="menu">
                     <li class="menuLink"><a href="#theCode">Code</a></li>
                     <li class="menuLink"><a href="#about">Steve</a></li>
-                    <li class="menuLink">Contact</li>
+                    <li class="menuLink"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
     </header>
     <img id="banner" src="./assets/images/beach.JPG" alt="Surfer at the beach">
     <img id="me" src="./assets/images/lorikeets.jpg" alt="Steve holding lorikeets">
+
+
+    <!-- Steve: below example taken and adjusted from w3schools-->
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content">
+            <!-- <span class="close">&times;</span> -->
+            <label for="search">Location of Date:</label>
+            <textarea name="search" id="search" cols="30" rows="2" placeholder="Enter name of venue and the suburb it's in"></textarea>
+            <br/><br/>
+            <label for="datePicker">Date of Date:</label>
+            <input type="date" id="datePicker" name="datePicker">
+            <br/><br/>
+            <button id="confirm" class="conCan">Confirm</button><button id="canx" class="conCan">Cancel</button>
+        </div>
+    
+    </div>
+    <!----------------->
+
+
     <div id="mainContent">
         <div id="about">
             <h2 id="aboutH2">About Me</h2>
@@ -67,13 +89,24 @@
                 <p class="codeP">A timed, Star Wars themed quiz, with multiple choice questions and a high score leaderboard.</p>
                 <img class="codeImg subImg" src="./assets/images/quiz.png" alt="Screenshot of Quiz Time">
             </div>
+            <div class="cricketDiv">
+                <h3>A bit of fun!</h3>
+                <p class="codeP">Fancy a game of cricket?</p>
+                <!-- <img class="codeImg subImg" src="./assets/images/quiz.png" alt="Screenshot of Quiz Time"> -->
+                <a href="javascript:cricket()"><img class="codeImg" src="./assets/images/cricket.png" alt="Play cricket logo"></a>
 
+
+                <!-- <div class="divCricket">
+                    <button id="cricket"><a href="javascript:cricket()"><img class="codeImg subImg" src="./assets/images/cricket.png" alt="Play cricket logo"></a></button>
+                </div> -->
+            </div>
             
 
             <!--iframe id="mainExample" src="https://nbs5000.github.io/dateNight/index.html" frameborder="0"></iframe-->
         </div>
         <div id="contact">
             <h2>Contact Me</h2>
+            <p class="contactP">Please feel free to contact me on one of the methods below.</p>
             <div class="contactIcon">
                 <a href="mailto:nbs5000.dev@gmail.com"><img class="contactImg" src="./assets/images/email.png" alt="Email Icon"></a>
             </div>
@@ -85,12 +118,12 @@
             </div>
 
         </div>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
     </div>
     <footer>
-            
+        <h4>&copy; Steve Barry 2021</h4>
     </footer>
+    <script src="./assets/js/cricket.js"></script>
     <script src="./assets/js/mainScript.js"></script>
 </body>
 </html>
