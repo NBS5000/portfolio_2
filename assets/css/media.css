@@ -64,6 +64,7 @@ Media CSS file
     #menu{
         width: 80%;
         margin: 0 auto;
+        /* margin-left: -100%; */
         text-align: center;
     }
     h2{
