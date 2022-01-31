@@ -4,6 +4,14 @@ Weather dashboard
 Media CSS file
 */
 
+@media screen and (max-width:1600) and (min-width:1365px){
+    #menu{
+        width: 100%;
+    }
+}
+
+
+
 @media screen and (max-width:1060px) and (min-width:650px) {
     .sb_name{
         font-size: 135%;
@@ -50,16 +58,12 @@ Media CSS file
     #stephen{
         padding-left: 0;
     }
-    #barry{
-
-    }
     h1{
         width: fit-content;
         margin: 0 auto;
     }
     nav{
         width: 100%;
-
     }
     #menu{
         width: 80%;
