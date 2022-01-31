@@ -32,7 +32,7 @@ Taken from w3schools, linked with modal section in HTML and modal.js*/
 }
 
 .conCan{
-    margin: 25px;
+    margin: 0 25px;
     width: 100px;
     height: 40px;
     border-radius: 20px;
@@ -47,12 +47,6 @@ Taken from w3schools, linked with modal section in HTML and modal.js*/
     text-shadow: var(--tx_shadow);
     box-shadow: var(--bx_shadow);
 }
-#frameDiv{
-    width: 80%;
-    margin: 0 auto;
-    padding-left: 16%;
-    display: block;
-}
 #modalAbout, #modalTitle{
     margin-bottom: 20px;
 }
@@ -60,9 +54,16 @@ Taken from w3schools, linked with modal section in HTML and modal.js*/
     color: var(--h_color);
     font-size: 200%;
 }
+#frameDiv{
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 16%;
+    display: block;
+    height: 460px;
+}
+
 #modalView{
     display: block;
-    
     height: 600px;
     width: 100%;
     zoom: 0.75;

@@ -16,6 +16,23 @@ Media CSS file
         margin-top: 0;
         width: 95%;
     }
+    #frameDiv{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #modalView{
+        width: 100%;
+        margin-left: 13%;
+        padding: 0;
+    }
+
+}
+@media screen and (max-width:640px) and (min-width:430px) {
+    .conCan{
+        width: 51%;
+        margin-bottom: 10px;
+    }
 }
 @media screen and (max-width:450px) {
     #mainContent{
