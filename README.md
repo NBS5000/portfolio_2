@@ -8,19 +8,12 @@ The task was to update our portfolio from Week 2 to include our group project, m
 
 **SITUATION**
 
-The provided user story was: 
-
-> <span style="font-style:italic">AS A coding boot camp student</span>
-> 
-> <span style="font-style:italic">I WANT to take a timed quiz on JavaScript fundamentals that stores high scores</span>
->
-> <span style="font-style:italic">SO THAT I can gauge my progress compared to my peers</span>
+No user story was provided, however the situation is that a professional portfolio, demonstrating code examples, responsiveness, and design skills.
 
 **TASK**
 
-Provide a solution that asks a number of questions, against a timer, and then record the score and compare to other scores.
+Provide a portfolio that shows our latest project, and our repos. It also should contain links to LinkedIn, Github, and our resume..
 
-*Having checked with the teachers, it was confirmed that the topic of questions does not necessarily need to be on Javascript*
 
 **ACTION**
 
@@ -42,19 +35,24 @@ Writing of a solution to resolve the situation, including:
   * *Numerous commits to track changes in code*
   * *Code added to public repository and Github Pages for public viewing*
 * Functionality
-  * *Feedback to the user as to how well they've done, with a Star Wars twist*
-  * *Hall of Fame to track the best scores, which can be cleared if desired*
+  * *Users are presented with a responsive list of projects and repos*
+  * *Clicking on a repo will bring up the page in an iFrame for viewings, with options to view the page itself, or the repo*
 
 **RESULT**
 
-The end code is stored on Github, and publicly available and viewable. This result meets all requirements of the User Story and acceptance criteria:
+The end code is stored on Github, and publicly available and viewable. This result meets all requirements set out.
 
 
 
 ## <span style="color:green"> The Outcome</span>
 
-As the acceptance criteria has been met and exceeded, the task is now complete. 
+As all items stipulated in the assignment document are completed, the task is now complete. 
 
+> There is a new Google feature named FLoc that is generating the below error. This is not a result of the performance or design of the site.
+> 
+> ![Screenshot of Google FLoC error](./assets/images/floc.PNG "Screenshot of Google FLoC error")
+> 
+> [Google FLoC](https://techcrunch.com/2021/03/30/google-starts-trialling-its-floc-cookie-alternative-in-chrome/)
 
 You can view the finished product [HERE](https://nbs5000.github.io/portfolio_2/)
 
