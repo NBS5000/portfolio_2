@@ -30,7 +30,6 @@ Taken from w3schools, linked with modal section in HTML and modal.js*/
     width: 80%;
     border-radius: 25px;
 }
-
 .conCan{
     margin: 0 25px;
     width: 100px;
@@ -61,7 +60,6 @@ Taken from w3schools, linked with modal section in HTML and modal.js*/
     display: block;
     height: 460px;
 }
-
 #modalView{
     display: block;
     height: 600px;

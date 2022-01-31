@@ -7,27 +7,23 @@ Modal js taken from w3schools*/
 // Get the modal
 var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var canx = document.getElementById("canx");
-
-// When the user clicks the "Begin"  button, open the modal 
-
+// global vars
 var gitLink = "https://nbs5000.github.io/";
 var linkFrame = document.getElementById("modalView");
 var linkTitle = document.getElementById("modalTitle");
 var linkAbout = document.getElementById("modalAbout");
 var requestUrl = 'https://api.github.com/repos/nbs5000/';
 var repoLink = "https://github.com/NBS5000/";
+var visit = document.getElementById("visit");
+var git = document.getElementById("git");
 
+// set and set info when clicking on individual links and show modal
 var dateBtn = document.getElementById("img_dateNight");
 dateBtn.addEventListener("click",function(){
     var type = "dateNight";
     var link = gitLink + type;
     linkFrame.src = link;
-    linkTitle.innerHTML = "The Weather";
+    linkTitle.innerHTML = "Date Night!";
     getInfo(type);
 });
 var weatherBtn = document.getElementById("img_weather");
@@ -63,18 +59,16 @@ quizBtn.addEventListener("click",function(){
     getInfo(type);
 });
 
+//get repo info for display
 function getInfo(repoName){
-
     var url = requestUrl + repoName;
     fetch(url)
     .then(
         res => res.json(),
     )
     .then(function(res){
-
         var about = res.description;
         var page = res.homepage;
-        var git = res.html_url;
         if(!about || !page){
             setTimeout(function(){},1000);
         }
@@ -83,24 +77,23 @@ function getInfo(repoName){
         }
         linkAbout.innerHTML = about;
         linkFrame.src = page;
-
-        document.getElementById("visit").value = repoName;
-        document.getElementById("git").value = repoName;
-        
+        visit.value = repoName;
+        git.value = repoName;
         modal.style.display = "block";
     })
     .catch(function (error) {
         alert('About did not work: ' + error);
     });
-    
 }
+// go to page
 function visitPage(){
-    var goto = document.getElementById("visit").value;
+    var goto = visit.value;
     var link = gitLink + goto + "/index.html";
     window.open(link, '_blank').focus();
 }
+// go to repo
 function visitGit(){
-    var goto = document.getElementById("visit").value;
+    var goto = visit.value;
     var link = repoLink + goto;
     window.open(link, '_blank').focus();
 }
@@ -111,8 +104,8 @@ var canxBtn = document.getElementById("canx");
 canxBtn.addEventListener("click",function(){
     linkAbout.innerHTML = "";
     linkTitle.innerHTML = "";
-    document.getElementById("visit").value = "";
-    document.getElementById("git").value = "";
+    visit.value = "";
+    git.value = "";
     linkFrame.src = "";
     modal.style.display = "none";
 });
@@ -120,6 +113,11 @@ canxBtn.addEventListener("click",function(){
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
+        linkAbout.innerHTML = "";
+        linkTitle.innerHTML = "";
+        visit.value = "";
+        git.value = "";
+        linkFrame.src = "";
         modal.style.display = "none";
     }
 }

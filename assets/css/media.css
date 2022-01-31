@@ -31,7 +31,6 @@ Media CSS file
         width: 51%;
         margin-bottom: 10px;
     }
-
 }
 @media screen and (max-width:650px) {
     #mainContent{
@@ -49,7 +48,6 @@ Media CSS file
         font-size: 100%;
         display: block;
         text-align: center;
-
     }
     #stephen{
         margin-left: 0;
@@ -64,7 +62,6 @@ Media CSS file
     #menu{
         width: 80%;
         margin: 0 auto;
-        /* margin-left: -100%; */
         text-align: center;
     }
     h2{
