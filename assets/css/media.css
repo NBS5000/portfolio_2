@@ -4,12 +4,6 @@ Weather dashboard
 Media CSS file
 */
 
-@media screen and (max-width:1600) and (min-width:1365px){
-    #menu{
-        width: 100%;
-    }
-}
-
 
 
 @media screen and (max-width:1060px) and (min-width:650px) {
