@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/var.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/css/main.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/css/media.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/modal.css"/>
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
 </head>
 <body>
@@ -33,13 +34,12 @@
         <!-- Modal content -->
         <div class="modal-content">
             <!-- <span class="close">&times;</span> -->
-            <label for="search">Location of Date:</label>
-            <textarea name="search" id="search" cols="30" rows="2" placeholder="Enter name of venue and the suburb it's in"></textarea>
-            <br/><br/>
-            <label for="datePicker">Date of Date:</label>
-            <input type="date" id="datePicker" name="datePicker">
-            <br/><br/>
-            <button id="confirm" class="conCan">Confirm</button><button id="canx" class="conCan">Cancel</button>
+            <h5 id="modalTitle"></h5>
+            <p id="modalAbout"></p>
+            <div id="frameDiv">
+                <iframe id="modalView" src="" frameborder="0"></iframe>
+            </div>
+            <button id="visit" class="conCan" onclick="visitPage()" value="">Visit</button><button id="git" class="conCan" onclick="visitGit()" value="">Github</button><button id="canx" class="conCan" target="_blank">Cancel</button>
         </div>
     
     </div>
@@ -72,33 +72,28 @@
                 <h3>The Weather</h3>
                 <p class="codeP">An assignment to generate a weather app where a user can enter a location and be provided with details of
                     the current and upcoming weather.</p>
-                <img class="codeImg subImg" src="./assets/images/theweather.png" alt="Screenshot of The Weather">
+                <img id="img_weather" class="codeImg subImg" src="./assets/images/theweather.png" alt="Screenshot of The Weather">
             </div>
             <div class="subExample">
                 <h3>Password Generator</h3>
                 <p class="codeP">An app where a user can have a randomised password generated, with selected parameters.</p>
-                <img class="codeImg subImg" src="./assets/images/password.png" alt="Screenshot of Password Generator">
+                <img id="img_password" class="codeImg subImg" src="./assets/images/password.png" alt="Screenshot of Password Generator">
             </div>
             <div class="subExample">
                 <h3>Scheduler</h3>
                 <p class="codeP">An assignment to build an app where a user can enter upcoming events.</p>
-                <img class="codeImg subImg" src="./assets/images/scheduler.png" alt="Screenshot of Scheduler">
+                <img id="img_scheduler" class="codeImg subImg" src="./assets/images/scheduler.png" alt="Screenshot of Scheduler">
             </div>
             <div class="subExample">
                 <h3>Quiz Time</h3>
                 <p class="codeP">A timed, Star Wars themed quiz, with multiple choice questions and a high score leaderboard.</p>
-                <img class="codeImg subImg" src="./assets/images/quiz.png" alt="Screenshot of Quiz Time">
+                <img id="img_quiz" class="codeImg subImg" src="./assets/images/quiz.png" alt="Screenshot of Quiz Time">
             </div>
             <div class="cricketDiv">
                 <h3>A bit of fun!</h3>
                 <p class="codeP">Fancy a game of cricket?</p>
-                <!-- <img class="codeImg subImg" src="./assets/images/quiz.png" alt="Screenshot of Quiz Time"> -->
                 <a href="javascript:cricket()"><img class="codeImg" src="./assets/images/cricket.png" alt="Play cricket logo"></a>
 
-
-                <!-- <div class="divCricket">
-                    <button id="cricket"><a href="javascript:cricket()"><img class="codeImg subImg" src="./assets/images/cricket.png" alt="Play cricket logo"></a></button>
-                </div> -->
             </div>
             
 
@@ -123,6 +118,7 @@
     <footer>
         <h4>&copy; Steve Barry 2021</h4>
     </footer>
+    <script src="./assets/js/modal.js"></script>
     <script src="./assets/js/cricket.js"></script>
     <script src="./assets/js/mainScript.js"></script>
 </body>

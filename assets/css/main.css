@@ -26,7 +26,7 @@ footer{
     padding: 20px;
     background-color: grey;
     color: white;
-    text-shadow: dimgray 1px 1px 3px;
+    text-shadow: var(--tx_shadow);
 }
 h1{
     position: relative;
@@ -51,7 +51,7 @@ nav{
 .sb_name{
     float: left;
     font-size: 150%;
-    text-shadow: dimgray 1px 1px 3px;
+    text-shadow: var(--tx_shadow);
     flex-shrink: 2;
 }
 #stephen{
@@ -189,18 +189,3 @@ h2{
     margin-bottom: 15px;
 }
 
-#mainEx{
-    text-align: center;
-    width: 80%;
-    height: 500px;
-    display: block;
-    
-
-    zoom: 0.75;
-    -moz-transform: scale(0.75);
-    -moz-transform-origin: 0 0;
-    -o-transform: scale(0.75);
-    -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.75);
-    -webkit-transform-origin: 0 0;
-}
